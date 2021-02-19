@@ -4,13 +4,13 @@ client.on('ready', () => {
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity : {
-details : "Your Text Here",
+details : "In A Public Sesssion",
 assets : {
 large_image : "Image",
-large_text : "Your Status" // THIS WILL SHOW AS "Playing <Status>" from the outisde
+large_text : "GTAV online" // THIS WILL SHOW AS "Playing <Status>" from the outisde
 },
-buttons : [{label : "Button1" , url : "Link1"},{label : "Button2",url : "Link2"}]
+buttons : [{label : "join" , url : "https://www.youtube.com/channel/UCHE7K19D-UzbPWUr7sJaICQ"},{label : "Sponsered Server",url : "https://discord.gg/yryTQe3EF2"}]
 }
 })
 })
-client.login({ clientId : "ApplicationID" }).catch(console.error);
+client.login({ clientId : "788651921308123136" }).catch(console.error);
